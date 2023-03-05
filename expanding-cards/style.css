@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom right, rgb(59, 211, 153), rgb(174, 0, 255));
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: 100vh;
+}
+img{
+    display: grid;
+    margin: auto auto;
+    width: 50%;
+    height: 70vh;
+    border-radius: 15vh;
+}
+.expand{
+    border-radius: 15px;
+    width: 70%;
+}
