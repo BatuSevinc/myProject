@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(137, 69, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#Search{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0;
+}
+.fa-search{
+    width: 50px;
+    height: 38px;
+    font-size: 20px !important;
+    padding-top: 10px;
+}
+button{
+    background-color: white;
+    border-radius: 0;
+    border: none;
+}
+.close{
+    display: none;
+}
